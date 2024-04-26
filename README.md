@@ -1,27 +1,39 @@
-# Frontangular
+# Angular con Microservicios
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+¡Bienvenido a nuestro proyecto Angular con Microservicios!
 
-## Development server
+## Descripción
+Este proyecto es un CRUD (Create, Read, Update, Delete) desarrollado con Angular y consumiendo un backend construido con Node.js. Utilizamos una arquitectura de microservicios para garantizar la escalabilidad y la modularidad del sistema. El código está escrito siguiendo las mejores prácticas de código limpio para facilitar el mantenimiento y la colaboración en el proyecto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características
+- Interfaz de usuario moderna y amigable.
+- Operaciones CRUD completas: Crear, Leer, Actualizar y Eliminar.
+- Arquitectura de microservicios para la escalabilidad y la modularidad.
+- Código limpio siguiendo las mejores prácticas de desarrollo.
 
-## Code scaffolding
+## Tecnologías utilizadas
+- Angular
+- Node.js
+- HTML/CSS
+- TypeScript
+- MySql
+- Docker
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
+1. Clona este repositorio: `git clone https://github.com/tu-usuario/angular-crud.git`
+2. Navega al directorio del proyecto: `cd angular-crud`
+3. Instala las dependencias: `npm install`
 
-## Build
+## Uso
+1. Inicia el servidor de desarrollo: `ng serve`
+2. Abre tu navegador y navega a `http://localhost:4200`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contribución
+¡Estamos abiertos a contribuciones! Si tienes alguna sugerencia, funcionalidad que agregar o problema que corregir, no dudes en abrir un issue o enviar un pull request.
 
-## Running unit tests
+## Autor
+- [Bryan A. Granados Percy](https://github.com/bryanpercy118)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Licencia
+Este proyecto está licenciado bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
