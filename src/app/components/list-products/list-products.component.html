@@ -1,6 +1,8 @@
 <div class="container">
-  <h1>Listado de Productos</h1>
-<button type="button" class="btn btn primary">Agregar Productos</button>
+  <div class="title">
+    <h1>Listado de Productos</h1>
+    <button type="button" class="btn btn primary">Agregar Productos</button>
+  </div>
 
   <table class="table table-hover">
     <thead>
@@ -18,7 +20,10 @@
         <td>{{item.description}}</td>
         <td>{{item.price}}</td>
         <td>{{item.stock}}</td>
-        <td><button class="btn btn-danger">Eliminar</button></td>
+        <td>
+            <button class="btn btn-primary">Editar</button>
+            <button class="btn btn-danger">Eliminar</button>
+        </td>
       </tr>
     </tbody>
   </table>
