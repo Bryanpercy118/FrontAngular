@@ -1,0 +1,10 @@
+.title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table{
+    margin-top: 10px;
+}
+
