@@ -18,4 +18,13 @@ export class AddEditProductsComponent {
       stock: ['',Validators.required]
     });
   }
+
+  ngOnInit(): void {
+    
+  }
+
+  addProduct(){
+    console.log(this.form);
+  }
+
 }
