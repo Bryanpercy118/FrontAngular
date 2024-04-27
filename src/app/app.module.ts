@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ListProductsComponent } from './components/list-products/list-products.component';
 import { AddEditProductsComponent } from './components/add-edit-products/add-edit-products.component';
-
+import { ReactiveFormsModule } from '@angular/forms'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +16,9 @@ import { AddEditProductsComponent } from './components/add-edit-products/add-edi
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
