@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-add-edit-products',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AddEditProductsComponent {
 
+  form: FormGroup;
+
+  constructor(private fb: FormBuilder) { 
+    this.form = this.fb.group({
+      name: ['',Validators.required],
+      description: ['',Validators.required],
+      price: ['',Validators.required],
+      stock: ['',Validators.required]
+    });
+  }
 }
