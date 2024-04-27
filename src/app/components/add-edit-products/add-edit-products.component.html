@@ -17,7 +17,7 @@
                             <button routerLink="/" type="button" class="btn btn-info">Volver</button>
                         </div>
                         <div class="col-lg-6">
-                            <button  type="submit" class="btn btn-primary"> Aceptar</button>
+                            <button [disabled]="form.invalid" type="submit" class="btn btn-primary"> Aceptar</button>
                         </div>
                     </div>
                   
