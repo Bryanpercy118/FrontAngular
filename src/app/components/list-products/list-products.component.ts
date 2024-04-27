@@ -8,12 +8,14 @@ import { Product } from '../../interfaces/product';
 export class ListProductsComponent {
   listProducts: Product[] = [
     {
+      id: 1,
       name:'Coca cola',
       description: 'Gaseosa',
       price: 10,
       stock: 100
     },
     {
+      id: 2, 
       name:'Pepsi',
       description: 'Gaseosa',
       price: 10,

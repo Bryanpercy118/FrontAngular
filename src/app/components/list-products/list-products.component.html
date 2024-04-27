@@ -21,7 +21,7 @@
         <td>{{item.price}}</td>
         <td>{{item.stock}}</td>
         <td>
-            <button class="btn btn-primary sm">Editar</button>
+            <button routerLink="/edit/{{ item.id }}" class="btn btn-primary sm">Editar</button>
             <button class="btn btn-danger sm">Eliminar</button>
         </td>
       </tr>
